@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@cloudflare/workers-types':
+    specifier: ^4.20240722.0
+    version: 4.20240722.0
   '@tweakpane/core':
     specifier: ^1.1.0
     version: 1.1.9
@@ -1370,6 +1373,10 @@ packages:
     dependencies:
       commander: 2.20.3
     dev: true
+
+  /@cloudflare/workers-types@4.20240722.0:
+    resolution: {integrity: sha512-/N072r7w7jNCgciRtImOQnHODn8CNwl3NHGO2lmC5bCsgevTRNeNj6B2IjS+OgEfo0qFoBgLejISl6ot9QvGvA==}
+    dev: false
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.57.0):
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}

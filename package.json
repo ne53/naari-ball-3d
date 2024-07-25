@@ -46,6 +46,7 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
+    "@cloudflare/workers-types": "^4.20240722.0",
     "@tweakpane/core": "^1.1.0",
     "ore-three": "^4.0.0-beta1",
     "three": "^0.145.0",
