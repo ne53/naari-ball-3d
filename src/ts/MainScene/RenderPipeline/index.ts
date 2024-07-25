@@ -48,7 +48,7 @@ export class RenderPipeline {
 
 		this.renderer = renderer;
 		this.bloomResolutionRatio = 0.5;
-		this.bloomRenderCount = 3;
+		this.bloomRenderCount = 4;
 		this.brightness = 0.08;
 
 		this.commonUniforms = ORE.UniformsLib.mergeUniforms( {
